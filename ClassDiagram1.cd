@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Report_scraper.Extensions.HtmlNodeExtension">
+    <Position X="14.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Extensions\HtmlNodeExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.Extensions.WebPageExtension">
+    <Position X="14.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\WebPageExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.Portal.PortalParameters.PortalParametersAttribute">
+    <Position X="12.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAQABCAAAAACCAAQAAAAAAA=</HashCode>
+      <FileName>Portal\PortalParameters\PortalParametersAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.AbstractPortal">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAgAAABAEAAAAAAAAAAAAgAAEACAAAAAAAAA=</HashCode>
+      <FileName>Portal\AbstractPortal.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Report_scraper.ParametersReportInfo">
+    <Position X="10.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Report\ReportParameters\ParametersReportInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.ReportBqrf" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Report\ReportBqrf.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Report_scraper.Browser">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Browser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.Program">
+    <Position X="15" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.Portal.BqrfPortal">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Portal\BqrfPortal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.ReportParameters.AkpReportParameters" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Report\ReportParameters\AkpReportParameters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Report_scraper.Report.ReportParameters.ReportHandlerAttibute">
+    <Position X="8.25" Y="2.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Report\ReportParameters\ReportHandlerAttibute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.Report.ReportProcessing.AkpReportProcessing">
+    <Position X="6" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Report\ReportProcessing\AkpReportProcessing(abstract).cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Report_scraper.Report.ReportProcessing.ReportAkp1Processing">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Report\ReportProcessing\ReportAkp1Processing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.Report.ReportProcessing.ReportAkp3Processing">
+    <Position X="6" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Report\ReportProcessing\ReportAkp3Processing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Report_scraper.Report.ReportProcessing.ReportAkp4Processing">
+    <Position X="8.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Report\ReportProcessing\ReportAkp4Processing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Report_scraper.IReportParameters">
+    <Position X="12.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Report\ReportParameters\IReportParameters.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Report_scraper.IReportProcessing">
+    <Position X="14.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Report\ReportProcessing\IReportProcessing.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Report_scraper.IReport">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Report\IReport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
